@@ -25,12 +25,5 @@ export default function handler(req, res) {
 
     const KEY = "bx-" + generateKey(seed);
 
-    res.status(200).send(
-`BX KEY SYSTEM
-
-CURRENT KEY:
-${KEY}
-
-Changes every 1 hour (UTC)`
-    );
+    res.status(200).send(KEY);
 }
