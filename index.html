@@ -1,16 +1,27 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-<meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>BX Script Key</title>
-<link rel="stylesheet" href="style.css">
+  <meta charset="UTF-8" />
+  <title>BX Premium Key</title>
+  <link rel="stylesheet" href="style.css" />
 </head>
 <body>
+
   <div class="container">
-    <h1>BX SCRIPT KEY</h1>
-    <div id="keyBox">•••••••••</div>
-    <button id="revealBtn">Reveal Key</button>
+    <h1>BX PREMIUM KEY SYSTEM</h1>
+
+    <button id="revealBtn">REVEAL KEY</button>
+
+    <div id="loader" class="hidden">
+      <div class="loading-text">LOADING KEY</div>
+      <div class="bar">
+        <div class="progress"></div>
+      </div>
+    </div>
+
+    <div id="keyBox" class="hidden">
+      <span id="keyText"></span>
+    </div>
   </div>
 
   <script src="script.js"></script>
